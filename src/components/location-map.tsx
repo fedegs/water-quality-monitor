@@ -1,6 +1,21 @@
 import { MapContainer, Marker, TileLayer, useMap } from "react-leaflet"
 import "leaflet/dist/leaflet.css"
 import { useEffect } from "react"
+import L from 'leaflet'
+
+// --- Fix for Leaflet default icon in bundlers (Vite/CRA/Next) ---
+// Import the images from the package and set them as the default icon.
+// Using new URL(..., import.meta.url) works reliably in production builds.
+const iconUrl = new URL('leaflet/dist/images/marker-icon.png', import.meta.url).toString()
+const iconRetinaUrl = new URL('leaflet/dist/images/marker-icon-2x.png', import.meta.url).toString()
+const shadowUrl = new URL('leaflet/dist/images/marker-shadow.png', import.meta.url).toString()
+
+L.Icon.Default.mergeOptions({
+  iconUrl,
+  iconRetinaUrl,
+  shadowUrl,
+})
+// ------------------------------------------------------------------------
 
 type RecenterMapProps = {
   center: [number, number]
