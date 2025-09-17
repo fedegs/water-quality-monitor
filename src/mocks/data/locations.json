@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "name": "Oro Verde",
+    "latitude": -31.833738,
+    "longitude": -60.521680
+  },
+  {
+    "id": "2",
+    "name": "Crespo",
+    "latitude": -32.0275,
+    "longitude": -60.3058
+  },
+  {
+    "id": "3",
+    "name": "Viale",
+    "latitude": -31.8678,
+    "longitude": -60.5714
+  },
+  {
+    "id": "4",
+    "name": "Villa Urquiza",
+    "latitude": -31.6483,
+    "longitude": -60.4242
+  },
+  {
+    "id": "5",
+    "name": "Hasenkamp",
+    "latitude": -31.5167,
+    "longitude": -60.0667
+  },
+  {
+    "id": "6",
+    "name": "Diamante",
+    "latitude": -32.0667,
+    "longitude": -60.6333
+  },
+  {
+    "id": "7",
+    "name": "Ramírez",
+    "latitude": -32.1747,
+    "longitude": -60.2014
+  },
+  {
+    "id": "8",
+    "name": "Seguí",
+    "latitude": -31.9597,
+    "longitude": -60.1408
+  }
+]
