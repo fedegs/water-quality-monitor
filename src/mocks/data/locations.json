@@ -1,50 +1,6 @@
 [
-  {
-    "id": "1",
-    "name": "Oro Verde",
-    "latitude": -31.833738,
-    "longitude": -60.521680
-  },
-  {
-    "id": "2",
-    "name": "Crespo",
-    "latitude": -32.0275,
-    "longitude": -60.3058
-  },
-  {
-    "id": "3",
-    "name": "Viale",
-    "latitude": -31.8678,
-    "longitude": -60.5714
-  },
-  {
-    "id": "4",
-    "name": "Villa Urquiza",
-    "latitude": -31.6483,
-    "longitude": -60.4242
-  },
-  {
-    "id": "5",
-    "name": "Hasenkamp",
-    "latitude": -31.5167,
-    "longitude": -60.0667
-  },
-  {
-    "id": "6",
-    "name": "Diamante",
-    "latitude": -32.0667,
-    "longitude": -60.6333
-  },
-  {
-    "id": "7",
-    "name": "Ramírez",
-    "latitude": -32.1747,
-    "longitude": -60.2014
-  },
-  {
-    "id": "8",
-    "name": "Seguí",
-    "latitude": -31.9597,
-    "longitude": -60.1408
-  }
+  { "id": 1, "name": "UADER FCyT – Toma de agua hacia tanques", "description": "Toma de agua cruda hacia tanques de almacenamiento", "lat_dd": -31.833748, "lon_dd": -60.521679, "altitude_m": null, "address": "Facultad de Ciencia y Tecnología (UADER), Oro Verde, Entre Ríos, AR", "active": true, "created_at": "2025-09-23T00:00:00Z" },
+  { "id": 2, "name": "UADER FCyT – Salida de agua desde tanques", "description": "Salida de agua desde tanques hacia la red interna", "lat_dd": -31.833748, "lon_dd": -60.521679, "altitude_m": null, "address": "Facultad de Ciencia y Tecnología (UADER), Oro Verde, Entre Ríos, AR", "active": true, "created_at": "2025-09-23T00:00:00Z" },
+  { "id": 3, "name": "UADER FCyT – Puntos de consumo: baños", "description": "Puntos de consumo: baños (muestra comparativas)", "lat_dd": -31.834073, "lon_dd": -60.521960, "altitude_m": null, "address": "Facultad de Ciencia y Tecnología (UADER), Oro Verde, Entre Ríos, AR", "active": true, "created_at": "2025-09-23T00:00:00Z" },
+  { "id": 4, "name": "UADER FCyT – Puntos de consumo: cocina", "description": "Puntos de consumo: cocina (muestra comparativas)", "lat_dd": -31.834094, "lon_dd": -60.521756, "altitude_m": null, "address": "Facultad de Ciencia y Tecnología (UADER), Oro Verde, Entre Ríos, AR", "active": true, "created_at": "2025-09-23T00:00:00Z" }
 ]

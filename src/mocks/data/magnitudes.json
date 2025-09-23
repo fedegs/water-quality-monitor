@@ -1,0 +1,9 @@
+[
+  { "id": 1, "group_name": "Water", "name_en": "Water Temperature", "abbreviation": "WT", "unit_id": 1,  "wqx_code": "00010", "wmo_code": null, "iso_ieee_code": null, "decimals": 1, "allow_negative": true,  "min_value": null, "max_value": null },
+  { "id": 2, "group_name": "Water", "name_en": "pH",                 "abbreviation": "pH", "unit_id": 4,  "wqx_code": "00400", "wmo_code": null, "iso_ieee_code": null, "decimals": 2, "allow_negative": false, "min_value": null, "max_value": null },
+  { "id": 3, "group_name": "Water", "name_en": "Electrical Conductivity", "abbreviation": "EC", "unit_id": 6, "wqx_code": "00095", "wmo_code": null, "iso_ieee_code": null, "decimals": 0, "allow_negative": false, "min_value": null, "max_value": null },
+  { "id": 4, "group_name": "Water", "name_en": "Total Dissolved Solids", "abbreviation": "TDS", "unit_id": 10, "wqx_code": null, "wmo_code": null, "iso_ieee_code": null, "decimals": 0, "allow_negative": false, "min_value": null, "max_value": null },
+  { "id": 5, "group_name": "Water", "name_en": "Salinity",              "abbreviation": "SAL", "unit_id": 9,  "wqx_code": null, "wmo_code": null, "iso_ieee_code": null, "decimals": 1, "allow_negative": false, "min_value": null, "max_value": null },
+  { "id": 6, "group_name": "Water", "name_en": "Specific Gravity",      "abbreviation": "SG",  "unit_id": 4,  "wqx_code": null, "wmo_code": null, "iso_ieee_code": null, "decimals": 3, "allow_negative": false, "min_value": null, "max_value": null },
+  { "id": 7, "group_name": "Water", "name_en": "Oxidation-Reduction Potential", "abbreviation": "ORP", "unit_id": 5, "wqx_code": "00090", "wmo_code": null, "iso_ieee_code": null, "decimals": 0, "allow_negative": true, "min_value": null, "max_value": null }
+]

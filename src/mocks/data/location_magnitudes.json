@@ -1,0 +1,27 @@
+[
+  { "location_id": 1, "magnitude_id": 1, "min_acceptable": 0.0,  "max_acceptable": 40.0,   "alert_low": 5.0,   "alert_high": 35.0,   "sampling_plan": "hourly", "required": true,  "notes": "Water Temperature (raw water)" },
+  { "location_id": 1, "magnitude_id": 2, "min_acceptable": 6.5,  "max_acceptable": 9.0,    "alert_low": 6.8,   "alert_high": 8.5,    "sampling_plan": "hourly", "required": true,  "notes": "pH (raw water)" },
+  { "location_id": 1, "magnitude_id": 3, "min_acceptable": 0.0,  "max_acceptable": 5.0,    "alert_low": 0.2,   "alert_high": 3.0,    "sampling_plan": "hourly", "required": true,  "notes": "EC (raw water)" },
+  { "location_id": 1, "magnitude_id": 4, "min_acceptable": 0.0,  "max_acceptable": 2000.0, "alert_low": 50.0,  "alert_high": 1000.0, "sampling_plan": "hourly", "required": true,  "notes": "TDS (raw water)" },
+  { "location_id": 1, "magnitude_id": 5, "min_acceptable": 0.0,  "max_acceptable": 42.0,   "alert_low": 0.2,   "alert_high": 35.0,   "sampling_plan": "hourly", "required": false, "notes": "Salinity optional" },
+  { "location_id": 1, "magnitude_id": 6, "min_acceptable": 0.98, "max_acceptable": 1.02,   "alert_low": 0.99,  "alert_high": 1.01,   "sampling_plan": "hourly", "required": false, "notes": "Specific Gravity" },
+  { "location_id": 1, "magnitude_id": 7, "min_acceptable": -500.0,"max_acceptable": 500.0, "alert_low": -200.0,"alert_high": 300.0,  "sampling_plan": "hourly", "required": false, "notes": "ORP (raw water)" },
+
+  { "location_id": 2, "magnitude_id": 1, "min_acceptable": 0.0,  "max_acceptable": 40.0,   "alert_low": 5.0,   "alert_high": 35.0,   "sampling_plan": "hourly", "required": true,  "notes": "Water Temperature (post-tank)" },
+  { "location_id": 2, "magnitude_id": 2, "min_acceptable": 6.8,  "max_acceptable": 8.5,    "alert_low": 7.0,   "alert_high": 8.2,    "sampling_plan": "hourly", "required": true,  "notes": "pH (post-tank)" },
+  { "location_id": 2, "magnitude_id": 3, "min_acceptable": 0.0,  "max_acceptable": 2.0,    "alert_low": 0.1,   "alert_high": 1.5,    "sampling_plan": "hourly", "required": true,  "notes": "EC (post-tank)" },
+  { "location_id": 2, "magnitude_id": 4, "min_acceptable": 0.0,  "max_acceptable": 1000.0, "alert_low": 50.0,  "alert_high": 700.0,  "sampling_plan": "hourly", "required": true,  "notes": "TDS (post-tank)" },
+  { "location_id": 2, "magnitude_id": 5, "min_acceptable": 0.0,  "max_acceptable": 5.0,    "alert_low": 0.1,   "alert_high": 3.5,    "sampling_plan": "hourly", "required": false, "notes": "Salinity (near 0)" },
+  { "location_id": 2, "magnitude_id": 6, "min_acceptable": 0.99, "max_acceptable": 1.02,   "alert_low": 1.00,  "alert_high": 1.01,   "sampling_plan": "hourly", "required": false, "notes": "Specific Gravity" },
+  { "location_id": 2, "magnitude_id": 7, "min_acceptable": -300.0,"max_acceptable": 300.0, "alert_low": -150.0,"alert_high": 150.0,  "sampling_plan": "hourly", "required": false, "notes": "ORP (post-tank)" },
+
+  { "location_id": 3, "magnitude_id": 1, "min_acceptable": 0.0,  "max_acceptable": 40.0,   "alert_low": 5.0,   "alert_high": 35.0,   "sampling_plan": "hourly", "required": true,  "notes": "Water Temperature (taps)" },
+  { "location_id": 3, "magnitude_id": 2, "min_acceptable": 6.8,  "max_acceptable": 8.5,    "alert_low": 7.0,   "alert_high": 8.2,    "sampling_plan": "hourly", "required": true,  "notes": "pH (taps)" },
+  { "location_id": 3, "magnitude_id": 3, "min_acceptable": 0.0,  "max_acceptable": 2.0,    "alert_low": 0.1,   "alert_high": 1.5,    "sampling_plan": "hourly", "required": true,  "notes": "EC (taps)" },
+  { "location_id": 3, "magnitude_id": 4, "min_acceptable": 0.0,  "max_acceptable": 1000.0, "alert_low": 50.0,  "alert_high": 700.0,  "sampling_plan": "hourly", "required": true,  "notes": "TDS (taps)" },
+
+  { "location_id": 4, "magnitude_id": 1, "min_acceptable": 0.0,  "max_acceptable": 40.0,   "alert_low": 5.0,   "alert_high": 35.0,   "sampling_plan": "hourly", "required": true,  "notes": "Water Temperature (kitchen taps)" },
+  { "location_id": 4, "magnitude_id": 2, "min_acceptable": 6.8,  "max_acceptable": 8.5,    "alert_low": 7.0,   "alert_high": 8.2,    "sampling_plan": "hourly", "required": true,  "notes": "pH (kitchen taps)" },
+  { "location_id": 4, "magnitude_id": 3, "min_acceptable": 0.0,  "max_acceptable": 2.0,    "alert_low": 0.1,   "alert_high": 1.5,    "sampling_plan": "hourly", "required": true,  "notes": "EC (kitchen taps)" },
+  { "location_id": 4, "magnitude_id": 4, "min_acceptable": 0.0,  "max_acceptable": 1000.0, "alert_low": 50.0,  "alert_high": 700.0,  "sampling_plan": "hourly", "required": true,  "notes": "TDS (kitchen taps)" }
+]

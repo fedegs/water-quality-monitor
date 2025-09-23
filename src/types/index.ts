@@ -1,3 +1,5 @@
+export * from '@/types/catalog'
 export * from '@/types/location'
-export * from '@/types/parameter'
 export * from '@/types/measurement'
+export * from '@/types/sensor'
+export * from '@/types/user'

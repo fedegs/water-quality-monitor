@@ -23,7 +23,7 @@ function LocationSelector({ locations, value, onChange }: LocationSelectorProps)
               <SelectContent className="z-[9999]">
                 {
                   locations.map(location => (
-                    <SelectItem key={location.id} value={location.id}>
+                    <SelectItem key={location.id} value={location.id.toString()}>
                       {location.name}
                     </SelectItem>
                   ))

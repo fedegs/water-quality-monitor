@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "name": "Water 7-in-1 Tester",
+    "manufacturer": "Unknown",
+    "model": "7-in-1 Bluetooth",
+    "serial_number": "S/D - 123456789",
+    "sensor_type": "multiparameter",
+    "installed_at": "2025-09-23T00:00:00Z",
+    "active": true,
+    "notes": "Measures pH, TDS, EC, ORP, Salinity, SG, Temp; Bluetooth app support; accuracy per product specs"
+  }
+]

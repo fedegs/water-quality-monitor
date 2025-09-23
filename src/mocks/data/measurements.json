@@ -1,31 +1,6 @@
-{
-  "1": [
-    {
-      "id": "m-2025-09-12-1000",
-      "timestamp": "2025-09-12T10:00:00Z",
-      "readings": [
-        { "key": "ph",   "value": 7.2,   "unit": "" },
-        { "key": "orp",  "value": 270,   "unit": "mV" },
-        { "key": "ec",   "value": 90,    "unit": "µS/cm" },
-        { "key": "tds",  "value": 380,   "unit": "ppm" },
-        { "key": "sal",  "value": 36,    "unit": "ppt" },
-        { "key": "sg",   "value": 1.028, "unit": "" },
-        { "key": "temp", "value": 8,     "unit": "°C" }
-      ]
-    },
-    {
-      "id": "m-2025-09-12-0900",
-      "locationId": "1",
-      "timestamp": "2025-09-12T09:00:00Z",
-      "readings": [
-        { "key": "ph",   "value": 7.1,   "unit": "" },
-        { "key": "orp",  "value": 260,   "unit": "mV" },
-        { "key": "ec",   "value": 88,    "unit": "µS/cm" },
-        { "key": "tds",  "value": 370,   "unit": "ppm" },
-        { "key": "sal",  "value": 35.8,  "unit": "ppt" },
-        { "key": "sg",   "value": 1.027, "unit": "" },
-        { "key": "temp", "value": 7.8,   "unit": "°C" }
-      ]
-    }
-  ]
-}
+[
+  { "id": 101, "sensor_id": 1, "location_id": 1, "entered_by": 1, "sampled_by": 2, "registered_at": "2025-09-23T18:16:00Z", "sampled_at": "2025-09-23T18:05:00Z", "status": "received", "source": "device", "batch_id": null, "comments": "Muestra 7-en-1 en TOMA" },
+  { "id": 102, "sensor_id": 1, "location_id": 2, "entered_by": 1, "sampled_by": 2, "registered_at": "2025-09-23T18:16:00Z", "sampled_at": "2025-09-23T18:10:00Z", "status": "received", "source": "device", "batch_id": null, "comments": "Muestra 7-en-1 en SALIDA TANQUES" },
+  { "id": 103, "sensor_id": 1, "location_id": 3, "entered_by": 1, "sampled_by": 2, "registered_at": "2025-09-23T18:16:00Z", "sampled_at": "2025-09-23T18:13:00Z", "status": "received", "source": "device", "batch_id": null, "comments": "Muestra 7-en-1 en BAÑOS" },
+  { "id": 104, "sensor_id": 1, "location_id": 4, "entered_by": 1, "sampled_by": 2, "registered_at": "2025-09-23T18:16:00Z", "sampled_at": "2025-09-23T18:15:00Z", "status": "received", "source": "device", "batch_id": null, "comments": "Muestra 7-en-1 en COCINA" }
+]

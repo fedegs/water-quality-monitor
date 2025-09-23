@@ -1,0 +1,9 @@
+[
+  { "sensor_id": 1, "magnitude_id": 1, "value_min": 0.0,    "value_max": 60.0,  "resolution": 0.1,  "accuracy": "±1.0 °C", "calibrated_at": "2025-09-23", "channel_name": "TEMP", "notes": "" },
+  { "sensor_id": 1, "magnitude_id": 2, "value_min": 0.0,    "value_max": 14.0,  "resolution": 0.01, "accuracy": "±0.03",   "calibrated_at": "2025-09-23", "channel_name": "pH",   "notes": "" },
+  { "sensor_id": 1, "magnitude_id": 3, "value_min": 0.0,    "value_max": 200.0, "resolution": 0.1,  "accuracy": "±2% FS", "calibrated_at": "2025-09-23", "channel_name": "EC",   "notes": "" },
+  { "sensor_id": 1, "magnitude_id": 4, "value_min": 0.0,    "value_max": 9999.0,"resolution": 0.1,  "accuracy": "±2% FS", "calibrated_at": "2025-09-23", "channel_name": "TDS",  "notes": "" },
+  { "sensor_id": 1, "magnitude_id": 5, "value_min": 0.0,    "value_max": 42.0,  "resolution": 0.1,  "accuracy": "±2% FS", "calibrated_at": "2025-09-23", "channel_name": "SAL",  "notes": "" },
+  { "sensor_id": 1, "magnitude_id": 6, "value_min": 0.900,  "value_max": 1.100, "resolution": 0.001,"accuracy": "±0.001", "calibrated_at": "2025-09-23", "channel_name": "SG",   "notes": "" },
+  { "sensor_id": 1, "magnitude_id": 7, "value_min": -1999.0,"value_max": 1999.0,"resolution": 1.0,  "accuracy": "±5 mV",  "calibrated_at": "2025-09-23", "channel_name": "ORP",  "notes": "" }
+]

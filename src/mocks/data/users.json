@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1, "username": "admin", "active": true, "role": "admin", "is_superuser": true,
+    "first_name": "Admin", "last_name": "UADER", "address_line1": "FCyT Oro Verde", "address_line2": "-",
+    "city": "Oro Verde", "state_province": "Entre Ríos", "postal_code": "3100", "country": "AR",
+    "email": "admin@uader.edu.ar", "phone": "+549000000000",
+    "organization": "UADER", "department": "FCyT", "position_title": "Administrador",
+    "created_at": "2025-09-23T00:00:00Z", "updated_at": "2025-09-23T00:00:00Z",
+    "created_by_user_id": null, "updated_by_user_id": null, "last_login_at": null
+  },
+  {
+    "id": 2, "username": "operador", "active": true, "role": "operator", "is_superuser": false,
+    "first_name": "Operario", "last_name": "Laboratorio", "address_line1": "FCyT Oro Verde", "address_line2": "-",
+    "city": "Oro Verde", "state_province": "Entre Ríos", "postal_code": "3100", "country": "AR",
+    "email": "operador@uader.edu.ar", "phone": "+549000000001",
+    "organization": "UADER", "department": "FCyT", "position_title": "Operario de laboratorio",
+    "created_at": "2025-09-23T00:00:00Z", "updated_at": "2025-09-23T00:00:00Z",
+    "created_by_user_id": 1, "updated_by_user_id": 1, "last_login_at": null
+  }
+]

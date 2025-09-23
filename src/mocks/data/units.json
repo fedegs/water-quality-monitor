@@ -1,0 +1,9 @@
+[
+  { "id": 1,  "ucum_code": "Cel",     "uncefact_code": null, "display": "°C" },
+  { "id": 4,  "ucum_code": "1",       "uncefact_code": null, "display": "" },
+  { "id": 5,  "ucum_code": "mV",      "uncefact_code": null, "display": "mV" },
+  { "id": 6,  "ucum_code": "uS/cm",   "uncefact_code": null, "display": "µS/cm" },
+  { "id": 7,  "ucum_code": "mS/cm",   "uncefact_code": null, "display": "mS/cm" },
+  { "id": 9,  "ucum_code": "PSU",     "uncefact_code": null, "display": "PSU" },
+  { "id": 10, "ucum_code": "mg/L",    "uncefact_code": null, "display": "mg/L" }
+]
