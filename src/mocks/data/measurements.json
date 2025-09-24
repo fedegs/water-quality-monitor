@@ -2,5 +2,13 @@
   { "id": 101, "sensor_id": 1, "location_id": 1, "entered_by": 1, "sampled_by": 2, "registered_at": "2025-09-23T18:16:00Z", "sampled_at": "2025-09-23T18:05:00Z", "status": "received", "source": "device", "batch_id": null, "comments": "Muestra 7-en-1 en TOMA" },
   { "id": 102, "sensor_id": 1, "location_id": 2, "entered_by": 1, "sampled_by": 2, "registered_at": "2025-09-23T18:16:00Z", "sampled_at": "2025-09-23T18:10:00Z", "status": "received", "source": "device", "batch_id": null, "comments": "Muestra 7-en-1 en SALIDA TANQUES" },
   { "id": 103, "sensor_id": 1, "location_id": 3, "entered_by": 1, "sampled_by": 2, "registered_at": "2025-09-23T18:16:00Z", "sampled_at": "2025-09-23T18:13:00Z", "status": "received", "source": "device", "batch_id": null, "comments": "Muestra 7-en-1 en BAÑOS" },
-  { "id": 104, "sensor_id": 1, "location_id": 4, "entered_by": 1, "sampled_by": 2, "registered_at": "2025-09-23T18:16:00Z", "sampled_at": "2025-09-23T18:15:00Z", "status": "received", "source": "device", "batch_id": null, "comments": "Muestra 7-en-1 en COCINA" }
+  { "id": 104, "sensor_id": 1, "location_id": 4, "entered_by": 1, "sampled_by": 2, "registered_at": "2025-09-23T18:16:00Z", "sampled_at": "2025-09-23T18:15:00Z", "status": "received", "source": "device", "batch_id": null, "comments": "Muestra 7-en-1 en COCINA" },
+ 
+ 
+  { "id": 105, "sensor_id": 1, "location_id": 1, "entered_by": 1, "sampled_by": 2, "registered_at": "2025-09-18T10:00:00Z", "sampled_at": "2025-09-18T09:55:00Z", "status": "received", "source": "device", "batch_id": null, "comments": "Muestra 7-en-1 #5" },
+  { "id": 106, "sensor_id": 1, "location_id": 1, "entered_by": 1, "sampled_by": 2, "registered_at": "2025-09-19T10:00:00Z", "sampled_at": "2025-09-19T09:55:00Z", "status": "received", "source": "device", "batch_id": null, "comments": "Muestra 7-en-1 #6" },
+  { "id": 107, "sensor_id": 1, "location_id": 1, "entered_by": 1, "sampled_by": 2, "registered_at": "2025-09-20T10:00:00Z", "sampled_at": "2025-09-20T09:55:00Z", "status": "received", "source": "device", "batch_id": null, "comments": "Muestra 7-en-1 #7" },
+  { "id": 108, "sensor_id": 1, "location_id": 1, "entered_by": 1, "sampled_by": 2, "registered_at": "2025-09-21T10:00:00Z", "sampled_at": "2025-09-21T09:55:00Z", "status": "received", "source": "device", "batch_id": null, "comments": "Muestra 7-en-1 #8" },
+  { "id": 109, "sensor_id": 1, "location_id": 1, "entered_by": 1, "sampled_by": 2, "registered_at": "2025-09-22T10:00:00Z", "sampled_at": "2025-09-22T09:55:00Z", "status": "received", "source": "device", "batch_id": null, "comments": "Muestra 7-en-1 #9" },
+  { "id": 110, "sensor_id": 1, "location_id": 1, "entered_by": 1, "sampled_by": 2, "registered_at": "2025-09-23T10:00:00Z", "sampled_at": "2025-09-23T09:55:00Z", "status": "received", "source": "device", "batch_id": null, "comments": "Muestra 7-en-1 #10" }
 ]

@@ -6,7 +6,7 @@ import magnitudes from '@/mocks/data/magnitudes.json'
 import sensors from '@/mocks/data/sensors.json'
 import sensorMagnitudes from '@/mocks/data/sensor_magnitudes.json'
 import locationMagnitudes from '@/mocks/data/location_magnitudes.json'
-import measurements from '@/mocks/data/measurements.json'
+import measurements from '@/mocks/data/measurements.json' 
 import measuredValues from '@/mocks/data/measured_values.json'
 import units from '@/mocks/data/units.json'
 
@@ -68,8 +68,15 @@ export const handlers = [
   }),
 
   // === Measurements ===
-  http.get('/api/measurement/list', () => {
-    return HttpResponse.json(measurements as Measurement[])
+  http.get('/api/measurement/list', ({request}) => {
+    const url = new URL(request.url)
+
+    const locationId = url.searchParams.get('location_id')
+    const limit = url.searchParams.get('limit')
+
+    const filteredMeasurements = measurements.filter(m => m.location_id.toString() === locationId)
+
+    return HttpResponse.json(filteredMeasurements.slice(0, limit ? Number(limit) : undefined) as Measurement[])
   }),
 
   http.get('/api/measurement/:idMeasurement', ({ params }) => {

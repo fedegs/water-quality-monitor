@@ -70,3 +70,37 @@ export async function getLatestMeasurementByLocation(locationId: number) {
   const detail = await getMeasurement(latestId)
   return detail // Measurement & { values: (MeasuredValue & { unit: string })[] }
 }
+
+export async function getMeasurementsByLocation(
+  locationId: number,
+  limit = 10
+) {
+  // pedir la lista ya ordenada y limitada por el handler
+  const list = await fetchJson<Measurement[]>(
+    `/api/measurement/list?location_id=${locationId}&limit=${limit}`
+  )
+
+  // si no hay mediciones, devolvemos array vacío
+  if (!list.length) return []
+
+  // pedimos el detalle completo para cada medición (incluye values y unidad)
+  const detailedMeasurements = await Promise.all(
+    list.map(m => getMeasurement(m.id))
+  )
+
+  return detailedMeasurements // array de Measurement & { values: (MeasuredValue & { unit: string })[] }
+}
+
+export async function getMagnitudesWithUnits(): Promise<(Magnitude & { unit: string })[]> {
+  const [magnitudes, units] = await Promise.all([getMagnitudes(), getUnits()])
+
+  const enriched = magnitudes.map(m => {
+    const unit = units.find(u => u.id === m.unit_id)
+    return {
+      ...m,
+      unit: unit ? unit.display : ''
+    }
+  })
+
+  return enriched
+}

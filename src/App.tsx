@@ -1,3 +1,4 @@
+import LocationHistory from "@/components/location-history"
 import LocationLastMeasure from "@/components/location-last-measure"
 import LocationMap from "@/components/location-map"
 import LocationSelector from "@/components/location-selector"
@@ -69,6 +70,7 @@ function App() {
                   selectedLocation && 
                   <>
                     <LocationLastMeasure location={selectedLocation} />
+                    <LocationHistory location={selectedLocation}/>
                   </>
                 }
               </>
