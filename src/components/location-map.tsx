@@ -1,5 +1,5 @@
 import { MapContainer, Marker, TileLayer, useMap } from "react-leaflet"
-import "leaflet/dist/leaflet.css"
+import "@/lib/leaflet-default-icon"
 import { useEffect } from "react"
 
 type RecenterMapProps = {

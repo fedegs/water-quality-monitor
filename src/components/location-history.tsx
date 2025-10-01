@@ -1,10 +1,9 @@
 import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { getMagnitudes, getMagnitudesWithUnits, getMeasurementsByLocation } from "@/services/api"
+import { getMagnitudesWithUnits, getMeasurementsByLocation } from "@/services/api"
 import type { Magnitude, Location, Measurement, MeasuredValue } from "@/types"
-import { Calendar, Filter, TrendingUp } from "lucide-react"
+import { Calendar, TrendingUp } from "lucide-react"
 import { useEffect, useState } from "react"
 import { CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts"
 
@@ -38,7 +37,7 @@ function calculateTrend(data: { name: string; value: number | null }[]) {
 
 
 function LocationHistory({ location }: LocationHistoryProps) {
-  const [showAllParameters, setShowAllParameters] = useState(false)
+  const [showAllParameters] = useState(false)
   const [selectedMagnitude, setSelectedMagnitude] = useState<(Magnitude & { unit: string }) | null>(null)
   const [measurements, setMeasurements] = useState<(Measurement & { values: (MeasuredValue & { unit: string })[] })[]>([])
   const [dateRange, setDateRange] = useState<DateRange>("7d")
